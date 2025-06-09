@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style type="text css"
-    h1{
-      font size:100%;
-      font family:bauhaus 93;
-      color: blue;
-    }
+    <style>
+body {
+  background-color: lightblue;
+}
+form{
+  color:rgb(63, 163, 63);
+  font-size:large;
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+  h2{
+    color:white;
+  }
+  h3,h4{
+    color:coral;
+    font-size:medium;}
+ label h3,h4{
+  background-color:yellow;
+  color:rgb(95, 91, 91);
+  font-size: medium;
+ }
+ label h5,h6,h7{
+  background-color:aquamarine;
+  color:grey;
+  font-size:x-large;
+
+ }
+</style>
     
     </head>
-    
+
      <body>
 
   <h1>Hello! Nice to see you here!</h1>
@@ -20,43 +42,45 @@
 
 <form>        
    <p>
-    <label for="fname">First name:</label>
+    <h3>
+      <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname">
-   </p>  
+    </h3>
+    </p>
+    
+    
    <p>
-     <label for="lname">Last name:</label>
+    <h4>
+      <label for="lname">Last name:</label>
   <input type="text" id="lname" name="lname">
   <input type="submit">
+    </h4>
+     
    </p>   
   <p>
-  <label for="birthday">Birthday:</label>
+    <h5>
+    <label for="birthday">Birthday:</label>
   <input type="date" id="birthday" name="birthday">
+    </h5>  
   </p>
+
   <p>
-    <label for="phone">Enter your phone number:</label>
+    <h6>
+      <label for="phone">Enter your phone number:</label>
   <input type="tel" id="phone" name="phone" pattern="[0-9]">
   <input type="submit">
+    </h6>    
   </p>
   <p>
-    <label for="Stress">Stress resistance level (from 1 to 10):</label>
-  <input type="range" id="vol" name="stress" min="0" max="50">
-  </p>
+    <h7><label for="Stress">Stress resistance level (from 1 to 10):</label>
+  <input type="range" id="stress" name="stress" min="1" max="10">
+    </h7></p>
+
  
 
-</form>
-    
-    
-   
-    
-</form>
 
-
-
+</form>  
  </body>   
-
-
-
-
-    
+  
 
 </html>
