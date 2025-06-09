@@ -4,14 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylessheet"href="styles03/style.css"/>
 </head>
 <h1>Hello! Nice to see you here!</h1>
-<h2>Fill in your details</h2>
+<h2>Fill in your details:</h2>
 <form>
-    <div>
-     <h1>
-    <label for="your name"> Your name:</label>  
-    <input placeholder="your name" type="text" id="Your name" > 
+       <h2>
+   <p>
+    <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname">
+   </p>  
+   <p>
+     <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname">
+  <input type="submit">
+   </p>   
+  <p>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+  </p>
+  <p>
+    <label for="phone">Enter your phone number:</label>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]">
+  <input type="submit">
+  </p>
+  <p>
+    <label for="Stress">Stress resistance level (from 1 to 10):</label>
+  <input type="range" id="vol" name="stress" min="0" max="50">
+  </p>
+ 
+
+</form>
+    </h2>
     
     </h1> 
     </div>
