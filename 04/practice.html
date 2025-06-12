@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CARD</title>
+    <link rel="stylesheet" href="card.css">
 </head>
 <body>  <style>
         body {
@@ -43,7 +44,15 @@
             font-style: italic;
 
         }
+     
+
     </style>
+    <script>
+        function showcontacts(){
+            const contacts="tel:+31633959970";
+            alert(+31633959970);
+        }
+    </script>
 </head>
 <body>
     <div class="card">
@@ -54,9 +63,12 @@
         <p id="description">We have a full staff: photographer, host, decorator, chef with his team, the most welcoming waiters, and friendly bartenders</p>
         <div class="contact">
             <p>Email: email@example.com</p>
-            <p>Телефон: +38 0669503758</p>
+            <p>Tel: +38 0669503758</p>
         </div>
-    <input type="button" value="contact us"> 
-    
+   <button class="my-button" onclick="showcontacts()">contact us</button>
 </body>
+<footer>
+    <p>Autor:Hanna Razvaliaieva</p>
+    </p>
+</footer>
 </html>

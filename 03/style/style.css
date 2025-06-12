@@ -1,6 +1,8 @@
 body
 h1{ 
     background-color: blue;
+    
+ border:2px solid Tomato;
 }
 h2{
     background-color: aqua;
