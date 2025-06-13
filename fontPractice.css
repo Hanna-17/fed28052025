@@ -1,6 +1,9 @@
 
+h1{
+  font-size:14px;
 
-.edu-nsw-act-hand-pre-400> {
+}
+.edu-nsw-act-hand-pre-400 {
   font-family: "Edu NSW ACT Hand Pre", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
