@@ -1,0 +1,263 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff6200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 360px;
+    margin: auto;
+    border: radius 20px;
+    position: relative;
+}
+
+.window {
+    /* Android Large - 1 */
+    position: relative;
+    width: 320px;
+    height: 650px;
+    border-radius: 20px;
+    
+    background: white;
+}
+.container1{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.icon-menu:hover {
+    /* Vector */
+   
+    width: 40px;
+    height: 40px;
+    left: 25px;
+    top: 30px;
+    background: rgb(63, 59, 59);
+
+}
+
+.container2 {
+    /* Menu */
+    /* Menu */
+    padding-top: 35px;
+    padding-left: 25px;
+    width: auto;
+    height: auto;
+    left: 22px;
+    top: 90px;
+
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.my-input {
+    /* Rectangle 1 */
+    padding-left: 30px;
+    width: 190px;
+    height: 24px;
+    left: 24px;
+    top: 145px;
+    border-radius: 12px;
+
+    background: rgb(239, 239, 239);
+}
+.search{
+    padding-left: 20px;
+}
+.food-row {
+  padding-top: 70px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border: 15px;
+    align-items: center;
+align-content:center;
+
+}
+
+
+.item-bg1 {
+    /* Rectangle 2 */
+    /* Rectangle 2 */
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 24px;
+    top: 238px;
+    border-radius: 12px;
+    align-items: center;
+    
+    background: rgb(234, 226, 183);
+
+
+}
+
+
+
+.item-bg2 {
+    /* Rectangle 2 */
+    /* Rectangle 2 */
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 122px;
+    top: 238px;
+    border-radius: 12px;
+    align-items: center;
+    background: rgb(239, 239, 239);
+    
+
+}
+
+.item-bg3 {
+    /* Rectangle 2 */
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 220px;
+    top: 238px;
+    border-radius: 12px;
+    align-items: center;
+    
+    background: rgb(239, 239, 239);
+
+}
+
+
+
+h1 {
+    /* Food */
+    position: absolute;
+    width: 39px;
+    height: 19px;
+    left: 41px;
+    top: 320px;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+h2 {
+    /* Drinks */
+    position: absolute;
+    width: 49px;
+    height: 19px;
+    left: 135px;
+    top: 320px;
+    color: rgb(196, 196, 196);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+h3 {
+    /* Dessert */
+    position: absolute;
+    width: 61px;
+    height: 19px;
+    left: 227px;
+    top: 320px;
+    color: rgb(196, 196, 196);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.h4{
+    /* Burger */
+position: absolute;
+width: 65px;
+height: 24px;
+left: 24px;
+top: 371px;
+color: rgb(0, 48, 73);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.nameburgers{
+    /* Burger */
+position: absolute;
+width: 65px;
+height: 24px;
+left: 55px;
+top: 370px;
+color: rgb(0, 48, 73);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 2px;
+letter-spacing: 0%;
+text-align: left;
+}
+.burger1{
+    padding-top: 170px;
+    padding-left: 15px;
+    margin-block: 10px;
+}
+.text-info1{
+    padding: top 20px;
+}
+.img-block1{
+    /* Rectangle 4 */
+
+width: 270px;
+height: 65px;
+left: 24px;
+top: 421px;
+border-radius: 10px;
+padding-left: 5px;
+box-shadow: 0px 0px 4px 0px rgb(230, 230, 230);
+background: rgb(255, 255, 255);
+}
+.burger2{
+    margin-block:10px;
+    padding-left: 15px;
+}
+.img-block2{
+    /* Rectangle 4 */
+
+width: 270px;
+height: 65px;
+left: 24px;
+top: 521px;
+border-radius: 10px;
+padding-left: 10px;
+padding-bottom: 3px;
+box-shadow: 0px 0px 4px 0px rgb(230, 230, 230);
+background: rgb(255, 255, 255);
+}
+.burger3{
+    margin-block:10px;
+    padding-left: 15px;
+
+}
+.img-block3{
+    /* Rectangle 4 */
+
+width: 270px;
+height: 65px;
+left: 24px;
+top: 621px;
+border-radius: 10px;
+padding-left:10px;
+padding-bottom:3px;
+box-shadow: 0px 0px 4px 0px rgb(230, 230, 230);
+background: rgb(255, 255, 255);
+}
