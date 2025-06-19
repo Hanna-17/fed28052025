@@ -1,0 +1,116 @@
+.body{
+    background-color:rgba(255, 255, 255, 0.482);
+}
+.blackblock{ 
+
+    position:fixed;
+    top:100px;
+    left:280px;
+    width: 220px;
+   height: 220px;
+   background: black;
+}
+
+.bluepart{
+    position:fixed;    
+}
+.yellowpart{
+    position:fixed;}
+.yellowpart{
+    background:yellow;
+    width: 20px;
+    height: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    top:260px;
+    left:380px; 
+}
+.bluepart{
+    background:blue;
+    width: 20px;
+    height: 10px;
+    border-top-left-radius: 2px ;
+    border-top-right-radius: 2px;
+    top:250px;
+   left: 380px;
+}
+.text{
+    position:fixed;
+    color:white;
+    font-size: 65px;
+    letter-spacing: 10px;
+    top:150px;
+    left: 340px;
+}
+.middleblock{
+    position:fixed;
+    z-index:1;
+    top: 280px;
+    left:450px;
+    width: 220px;
+   height: 220px;
+   background-color: blue;
+   
+}
+.yellopartL{
+    position:fixed;
+   z-index: 2;
+    left:450px;
+    top: 400px;
+    width: 220px;
+    height: 110px;   
+    background-color: yellow;
+    
+}
+.img1{
+    position:fixed;
+    z-index:3;
+    width: 150px;
+    height: 70px;
+    top: 365px;
+    left: 480px;
+    border: blue;
+}   
+.lastblock{
+    position:fixed;
+    width: 220px;
+    height:220px;
+    border-bottom:blue solid 1px;
+    border-right: blue solid 1px;
+    border-top: blue solid 1px;
+    border-left: blue solid 1px;
+    background-color:white;
+    top: 430px;
+    left: 650px;
+}
+.bluecircle{
+    position:fixed;
+    background-color: blue;
+    z-index:4;
+    top: 480px;
+    left: 699px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.yellowcicrle{
+    position:fixed;
+    z-index: 5;
+  background-color: yellow;
+    top: 540px;
+    left:701px;
+    height: 60px;
+    width: 117px;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius:80%;
+}
+.img2{
+    position:fixed;
+    z-index:6;
+    width: 70px;
+    height: 70px;
+    top: 530px;
+    left: 730px;
+    border: blue;
+
+}
