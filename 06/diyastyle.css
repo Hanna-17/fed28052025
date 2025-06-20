@@ -104,8 +104,6 @@
     height: 60px;
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 60px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
 }
 .img2{
     position:fixed;
