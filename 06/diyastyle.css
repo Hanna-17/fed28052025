@@ -82,27 +82,30 @@
     background-color:white;
     top: 430px;
     left: 650px;
+    z-index: 1;
 }
 .bluecircle{
-    position:fixed;
+    position:absolute;
     background-color: blue;
     z-index:4;
-    top: 480px;
-    left: 699px;
+    top: 60px;
+    left: 50px;
     width: 120px;
     height: 120px;
     border-radius: 50%;
 }
 .yellowcicrle{
-    position:fixed;
+    position:absolute;
     z-index: 5;
-  background-color: yellow;
-    top: 540px;
-    left:701px;
+    background-color: yellow;
+    top: 60px; /* move it down to overlap lower part of bluecircle */
+    left: 1.3px;
+    width: 120px;
     height: 60px;
-    width: 117px;
-    border-bottom-left-radius: 80%;
-    border-bottom-right-radius:80%;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 .img2{
     position:fixed;

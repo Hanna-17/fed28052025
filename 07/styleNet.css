@@ -1,0 +1,57 @@
+.containerBasic{
+position:relative;
+top: 90px;
+left: 300px;
+width: 4000px;
+height: 2500px;
+border:5px solid red;
+background-image: url(imgN/ground.jpg);
+background-size:cover;
+background-position:center;
+
+}
+.header {
+    margin: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px; /* space between items */
+}
+
+.logo img {
+  height: 70px;
+}
+
+.vertical-border {
+  width: 4px;
+  height: 40px;
+  background-color:rgb(194, 179, 179) ;
+}
+
+.date img {
+  height: 30px; /* adjust as needed */
+}
+
+.search{ 
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 100px; /* space between search input and button */
+  font-size: 150px;
+  color: white;
+    
+
+}
+.fa-thin fa-magnifying-glass {
+  font-size: 100px;
+  color: #ede6e6;
+}
+.genres{
+    font-size: 60px;
+    color: #afaaaa;
+}
+.h2{
+    font-size: 160px;
+    color: #afaaaa;
+
+}
